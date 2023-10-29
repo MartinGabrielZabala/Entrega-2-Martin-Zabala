@@ -159,6 +159,7 @@ nav ul li{
 }
 .colorboton2{
     margin-top: 20%;
+    background-color: #000000;
 }
 /* Historia*/
 h2 {
@@ -352,7 +353,7 @@ a {
 }
 .textc{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: none;
 }
 /*Historia*/
@@ -396,52 +397,52 @@ a {
     .logo{
         height: auto;
         width: auto;
-        margin-left: 30%;
+        margin-left: 25%;
     }
     ul li a {
         display: block;   
         font-size: 10px;
-        margin-left: 90%;   
+        margin-right: 30%;   
     }
     .inline{
         margin-left: 82%;
         margin-bottom: 25px;
     }
     .titulo1{
-        margin-left: 13%;
+        margin-left: 10%;
     }
     .imagen1{
         height: 50%;
         width: 50%;
-        margin-left: 33%;
+        margin-left: 30%;
     }
     .descripcion .text1{
-        margin-left: 26%;
+        margin-left: 22%;
     }
     .titulo2{
-        margin-left: 13%;
+        margin-left: 10%;
     }
     .descripcion .imagen2{
         height: 50%;
         width: 50%;
-        margin-left: 33%;
+        margin-left: 30%;
     }
     .descripcion .text2{
-        margin-left: 26%;
+        margin-left: 22%;
     }
     aside{
          display: none;
     }
     h2{
-        margin-left: 48%;
+        margin-left: 44%;
     }
     .imgd{
         height: 50%;
         width: 50%;
-        margin-left: 33%;
+        margin-left: 30%;
     }
     .texthisto{
-        margin-left: 26%;
+        margin-left: 15%;
     }
     .informacionindex{
         margin-left: 20%;
@@ -458,7 +459,29 @@ a {
         margin-bottom: 3%;
     }
     @media (min-width: 480px) and (max-width: 576px) {
-
+        .login-box{
+        margin-top: 50%;
+        }
     }
-}
-
+    @media (min-width:480px) and (max-width: 576px) {
+        .contenido{
+            margin-left: 40px;
+            width: 40px;
+        }
+    }
+    @media (min-width:480px) and (max-width: 576px){
+        .titt{
+            margin-left: 30%;
+            font-size: 30px;
+        }
+        .vg{
+            height: 50%;
+            width: 60%;
+            margin-left: 20%;
+        }
+        .videogc{
+            height: 50%;
+            width: 80%;
+            margin-left: 10%;
+        }
+    }
